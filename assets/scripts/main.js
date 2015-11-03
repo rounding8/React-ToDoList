@@ -49,7 +49,7 @@
 		render: function() {
 			return (
 				<div>
-					<h1><a href="https://github.com/geekindapink/React-ToDoWidget" target="_blank">ToDo List</a></h1>
+					<h1><a href="https://github.com/geekindapink/React-ToDoList" target="_blank">ToDo List</a></h1>
 					<TodoList items={this.state.items} />
 					<form onSubmit={this.handleSubmit}>
 						<input onChange={this.onChange} value={this.state.text} />
